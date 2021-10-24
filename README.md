@@ -1,1 +1,3 @@
 # AudioVisualizier
+
+## Installation Guide
