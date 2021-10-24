@@ -71,7 +71,7 @@ const vizInit = function () {
     const planeGeometry = new THREE.PlaneGeometry(800, 800, 20, 20);
     const planeMaterial = new THREE.MeshLambertMaterial({
       //colour of the lines
-      color: 0x6904ce,
+      color: 0xffffff,
       //sides
       side: THREE.DoubleSide,
       //wireframe = texture
@@ -93,7 +93,7 @@ const vizInit = function () {
     const icosahedronGeometry = new THREE.IcosahedronGeometry(10, 4);
     const lambertMaterial = new THREE.MeshLambertMaterial({
       //colour of the ball
-      color: 0xff00ee,
+      color: 0xe10600,
       //wireframe = texture
       wireframe: true,
     });
@@ -122,7 +122,7 @@ const vizInit = function () {
     //add spotLight to the render
     scene.add(spotLight);
 
-    //removed due to bugs
+    //removed due to bugs (Check README)
     // const orbitControls = new THREE.OrbitControls(camera);
     // orbitControls.autoRotate = true;
 
