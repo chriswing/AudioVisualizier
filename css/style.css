@@ -8,9 +8,6 @@
   --shadowColorFaint: hsla(0, 0%, 0%, 0.2);
 }
 
-::selected{
-  color: var(--textColorDark);
-}
 
 html, body{
   margin: 0;
