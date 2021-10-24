@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Visualiser</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div id="content">
+
+    <label for="thefile" class="file"> Choose an audio file
+      <input type="file" id="thefile" accept="audio/*" />
+    </label>
+
+    <audio id="audio" controls></audio>
+    <div id="out"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.3.0/simplex-noise.min.js"></script>ﬂ
+  <script src="js/three.min.js"></script>
+  <script src="js/scene.js"></script>
+
+</body>
+
+</html>
